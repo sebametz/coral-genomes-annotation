@@ -1,6 +1,6 @@
 # files for jaBlaWell11
-* galba.aa.xz - proteins from BRAKER3 predictions
-* galba.gtf.xz - GTF style annoations from BRAKER3
+* galba.aa.xz - proteins from GALBA predictions
+* galba.gtf.xz - GTF style annoations from GALBA
 
 # files hosted elsewhere
 * [softmasked genome FASTA](https://asg_hubs.cog.sanger.ac.uk/jaBlaWell11/jaBlaWell11.fa.masked)
