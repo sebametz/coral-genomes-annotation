@@ -9,7 +9,9 @@
 # files hosted elsewhere
 * [softmasked genome FASTA](https://asg_hubs.cog.sanger.ac.uk/jaIsoPali11/jaIsoPali11.fa.masked)
 * [tarball of RepeatModeller output](https://asg_hubs.cog.sanger.ac.uk/jaIsoPali11/jaIsoPali11.tar.xz)
-* [BAM file](https://asg_hubs.cog.sanger.ac.uk/jaIsoPali11/VARUS_modified.bam) of VARUS sampled RNASeq from SRA (max 30 million spots)
+
+# Note:
+* No RNA was available; genes were predicted using only the protein database.
 
 # Statistics:
 
@@ -25,4 +27,5 @@
 <div style="text-align: center;">
   <img src="jaIsoPali11_busco.jpeg" alt="Plot of BUSCO results" width="400"/>
 </div>
+
 

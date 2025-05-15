@@ -9,7 +9,9 @@
 # files hosted elsewhere
 * [softmasked genome FASTA](https://asg_hubs.cog.sanger.ac.uk/jaMonPala3/jaMonPala3.fa.masked)
 * [tarball of RepeatModeller output](https://asg_hubs.cog.sanger.ac.uk/jaMonPala3/jaMonPala3.tar.xz)
-* [BAM file](https://asg_hubs.cog.sanger.ac.uk/jaMonPala3/VARUS_modified.bam) of VARUS sampled RNASeq from SRA (max 30 million spots)
+
+# Note:
+* No RNA was available; genes were predicted using only the protein database.
 
 # Statistics:
 
