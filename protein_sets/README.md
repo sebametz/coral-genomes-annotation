@@ -2,7 +2,17 @@
 ## Scleractinia.fasta.xz | Scleractinia_braker.fasta.xz (Apr 2025)
 Collection of NCBI, Uniprot and Ensembl Scleractinia proteins
 
-## Complexa_braker.fasta.xz (30 June 2025)
+## Complexa_braker.fasta.xz (Jul 2025)
+Added: 
+	* jaAcrPala1.3
+	* jaMonSpea1 
+
+## Robusta_braker.fasta.xz (Jul 2025)
+Added:
+	* jaCauFurc1
+	* jaDipLaby1
+
+## Complexa_braker.fasta.xz (June 2025)
 Collection of Complex corals predicted proteomes:
 
 * jaAcrAuse1
