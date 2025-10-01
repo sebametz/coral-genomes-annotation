@@ -1,61 +1,53 @@
 # Protein sets
-## Scleractinia.fasta.xz | Scleractinia_braker.fasta.xz (Apr 2025)
+## Scleractinia.fasta (Apr 2025)
 Collection of NCBI, Uniprot and Ensembl Scleractinia proteins
 
-## Complexa_braker.fasta.xz (Jul 2025)
-Added: 
-	* jaAcrPala1.3
-	* jaMonSpea1 
+## Complex_Aug_2025.faa.xz (Aug 2025)
+Collection of 734,275 proteins, including BRAKER3 first round prediction of:
+* jaAcrCerv1_Acropora_cervicornis
+* jaAcrAuse1_Acropora_austera
+* jaAcrGlau1_Acropora_glauca
+* jaAcrHyac4_Acropora_hyacinthus
+* jaAcrLori1_Acropora_loripes
+* jaAcrMuri1_Acropora_muricata
+* jaAcrPala1.3_Acropora_palmata
+* jaAcrPulc1_Acropora_pulchra
+* jaAcrSpat14_Acropora_spathulata
+* jaAcrSpic1_Acropora_spicifera
+* jaDunAxif1_Duncanopsammia_axifuga
+* jaGalFasc40_Galaxea_fascicularis
+* jaIsoPali11_Isopora_palifera
+* jaMonCapi2_Montipora_capitata
+* jaMonCapr1_Montipora_capricornis
+* jaMonPala3_Montipora_palawanensis
+* jaMonSpea1_Montipora_sp.UDUK0000274
+* jaPorCyli1_Porites_cylindrica
+* jaPorDiva4_Porites_divaricata
+* jaPorLute2_Porites_lutea
+* jaPorRusx1_Porites_rus
+* jaSidRadi1_Siderastrea_radians
+* jaSidSide1_Siderastrea_siderea
+* jaSteInte3_Stephanocoenia_intersepta
+* jaTurReni1_Turbinaria_reniformis
 
-## Robusta_braker.fasta.xz (Jul 2025)
-Added:
-	* jaCauFurc1
-	* jaDipLaby1
+## Robust_Aug_2025.faa.xz (Aug 2025)
+Collection of 438,329 proteins, including BRAKER3 first round prediction of:
+* jaBlaWell11_Blastomussa_wellsi
+* jaCauFurc1_Caulastraea_furcata
+* jaCypSala7_Cyphastrea_salae
+* jaDenCyli1_Dendrogyra_cylindrus
+* jaDipLaby1_Diploria_labyrinthiformis
+* jaEchHorr1_Echinopora_horrida
+* jaMadAure2_Madracis_auretenra
+* jaMadSena2_Madracis_senaria
+* jaMeaMean2_Meandrina_meandrites
+* jaMicLord3_Micromussa_lordhowensis
+* jaOcuArbu1_Oculina_arbuscula
+* jaOrbFran1_Orbicella_franksi
+* jaPocDami1_Pocillopora_damicornis
+* jaPocGran1_Pocillopora_grandis
+* jaStyPist1_Stylophora_pistillata
 
-## Complexa_braker.fasta.xz (June 2025)
-Collection of Complex corals predicted proteomes:
-
-* jaAcrAuse1
-* jaAcrCerv1
-* jaAcrGlau1
-* jaAcrHyac4
-* jaAcrLori1
-* jaAcrMuri1
-* jaAcrPala1
-* jaAcrPulc1
-* jaAcrSpat14
-* jaAcrSpic1
-* jaIsoPali11
-* jaMonCapi2
-* jaMonCapr1
-* jaMonPala3
-* jaDunAxif1
-* jaTurReni1
-* jaGalFasc40
-* jaPorCyli1
-* jaPorDiva4
-* jaPorLute2
-* jaPorRusx1
-* jaSidRadi1
-* jaSidSide1
-
-## Robusta_braker.fasta.xz (30 June 2025)
-Collection of Robust corals predicted proteomes:
-
-* jaSteInte3
-* jaMicLord3
-* jaDenCyli1
-* jaMeaMean2
-* jaCypSala7
-* jaEchHorr1
-* jaOrbFran1
-* jaBlaWell11
-* jaOcuArbu1
-* jaMadAure2
-* jaMadSena2
-* jaPocDami1
-* jaPocGran1
-* jaStyPist1 
 
 ## cnidaria_uniprot_25_08_2023_without_A0A6S7FRV1_PARCT.fa.xz
 Unprot cnidaria proteins (with isoforms) with A0A6S7FRV1_PARCT, a centrosomal protein, that will align to too many regions for SPALN to deal with removed.
@@ -69,6 +61,6 @@ To reassemble and decompress:
 
 ```bash
 
-cat file.fasta_part_*.xz | xz -d > file.fasta
+cat file.fasta.xz_part* | xz -d > file.fasta
 
 ```

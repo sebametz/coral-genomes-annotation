@@ -1,22 +1,6 @@
-## Scleractinia genome annotation pipeline
-
-<p align="center">
-  <img src="pipeline_apr2025.jpeg" width="800"/>
-</p>
-
-#### NOTE:
-
-* [R1]: Round 1 gene prediction with BRAKER3
-* [R2]: Round 2 gene prediction with BRAKER3: Group specific (Complex/Robust)
-* [D1]: Scleractinia protein dataset (over 1.2 million proteins)
-* [D2]: Complex/Robust protein dataset
-
-The scripts were adapted to run in a Platform LSF and can be found [here](https://github.com/sebametz/coral-genomes-annotation/tree/main/methods/scripts)
-
-# Genome
-The genomes are downloaded from ENA using the Accession Number, as following:
-
-`wget -O <TOLID>.fa.gz "https://www.ebi.ac.uk/ena/browser/api/fasta/<GCA_ACC>?download=true&gzip=true"`
+# Methods
+Using singularity images if possible.
+Generally moving the working directory onto a fast storage system and copying the results back is advisable.
 
 # Repeats
 Using: [TETools](https://github.com/Dfam-consortium/TETools)
@@ -36,6 +20,8 @@ singularity exec --bind `pwd`:$HOME $IMG RepeatMasker -lib ${SPECIES}-families.f
 # RNASeq
 Using: [VARUS](https://github.com/Gaius-Augustus/VARUS)
 
+Installed locally, as there is no Docker image yet.
+
 ## where
 * VARUSparameters.txt contains the config
 * species.txt contains the species of choice (latin_name; fasta_name)
@@ -54,9 +40,13 @@ Using: [BRAKER3](https://hub.docker.com/r/teambraker/braker3) / [GALBA](https://
 * $BRAKER/$GALBA is the braker/galba .sif
 * $BAM is the varus.bam
 
-## BRAKER3 x 2
+## BRAKER3
 currently set to use 22 cores / 48G RAM for sponges
 ```
 singularity exec --bind `pwd`:$HOME $BRAKER braker.pl --genome=$FASTA --prot_seq=$DB --threads=$THREADS --bam=$BAM --workingdir=BRAKER3 --species=$SPECIES
 ```
-
+## GALBA
+currently set to use 8 cores / 20G RAM for sponges
+```
+singularity exec --bind `pwd`:$HOME $GALBA galba.pl --species=$SPECIES --genome $FASTA --prot $DB --threads $THREADS
+```
