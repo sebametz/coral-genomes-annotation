@@ -1,7 +1,7 @@
 ---
-genes: 39730
-average_gene_length: 6184
-transcripts_per_gene: 1.1503397936068462
-average_transcript_length: 1275
-exons_per_transcript: 5.485197908233595
-average_exon_length: 232
+genes: 39817
+average_gene_length: 6181
+transcripts_per_gene: 1.1318281136198107
+average_transcript_length: 1271
+exons_per_transcript: 5.4161230195712955
+average_exon_length: 234

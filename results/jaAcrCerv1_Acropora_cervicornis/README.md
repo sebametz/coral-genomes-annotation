@@ -15,12 +15,12 @@
 # Statistics:
 
 ---
- * genes: 23746
- * average_gene_length: 6132
- * transcripts_per_gene: 1.209508969931778
- * average_transcript_length: 1477
- * exons_per_transcript: 7.5419379548065875
- * average_exon_length: 195
+ * genes: 23733
+ * average_gene_length: 6159
+ * transcripts_per_gene: 1.1753254961446087
+ * average_transcript_length: 1456
+ * exons_per_transcript: 7.405499390549939
+ * average_exon_length: 196
 
 
 # BUSCO

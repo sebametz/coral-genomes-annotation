@@ -10,17 +10,16 @@
 
 * [softmasked genome FASTA](https://asg_hubs.cog.sanger.ac.uk/jaBlaWell11/jaBlaWell11.fa.masked)
 * [tarball of RepeatModeller output](https://asg_hubs.cog.sanger.ac.uk/jaBlaWell11/jaBlaWell11.tar.xz)
-* [BAM file](https://asg_hubs.cog.sanger.ac.uk/jaBlaWell11/VARUS_modified.bam) of VARUS sampled RNASeq from SRA (max 30 million spots)
 
 # Statistics:
 
 ---
- * genes: 32285
- * average_gene_length: 5275
- * transcripts_per_gene: 1.135542821743844
- * average_transcript_length: 1397
- * exons_per_transcript: 6.077875671694716
- * average_exon_length: 229
+ * genes: 32412
+ * average_gene_length: 5276
+ * transcripts_per_gene: 1.1090028384548933
+ * average_transcript_length: 1373
+ * exons_per_transcript: 5.883683405202393
+ * average_exon_length: 233
 
 
 # BUSCO

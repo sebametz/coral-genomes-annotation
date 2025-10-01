@@ -10,17 +10,20 @@
 
 * [softmasked genome FASTA](https://asg_hubs.cog.sanger.ac.uk/jaIsoPali11/jaIsoPali11.fa.masked)
 * [tarball of RepeatModeller output](https://asg_hubs.cog.sanger.ac.uk/jaIsoPali11/jaIsoPali11.tar.xz)
-* [BAM file](https://asg_hubs.cog.sanger.ac.uk/jaIsoPali11/VARUS_modified.bam) of VARUS sampled RNASeq from SRA (max 30 million spots)
+
+## Note:
+
+* BRAKER3 RNA fed using [ERR13669981](https://www.ebi.ac.uk/ena/browser/view/ERR13669981)  
 
 # Statistics:
 
 ---
- * genes: 23544
- * average_gene_length: 5384
- * transcripts_per_gene: 1.1481481481481481
- * average_transcript_length: 1322
- * exons_per_transcript: 6.371855578573543
- * average_exon_length: 207
+ * genes: 25181
+ * average_gene_length: 5479
+ * transcripts_per_gene: 1.1277947658949208
+ * average_transcript_length: 1302
+ * exons_per_transcript: 6.333110320785943
+ * average_exon_length: 205
 
 
 # BUSCO
