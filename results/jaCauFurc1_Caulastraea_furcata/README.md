@@ -10,7 +10,7 @@
 
 * [softmasked genome FASTA](https://asg_hubs.cog.sanger.ac.uk/jaCauFurc1/jaCauFurc1.fa.masked)
 * [tarball of RepeatModeller output](https://asg_hubs.cog.sanger.ac.uk/jaCauFurc1/jaCauFurc1.tar.xz)
-* [BAM file](https://asg_hubs.cog.sanger.ac.uk/jaCauFurc1/VARUS_modified.bam) of VARUS sampled RNASeq from SRA (max 30 million spots)
+* [BAM file](https://asg_hubs.cog.sanger.ac.uk/jaCauFurc1/VARUS.bam) of VARUS sampled RNASeq from SRA (max 30 million spots)
 
 # Statistics:
 
