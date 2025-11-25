@@ -17,3 +17,7 @@ Currently created using [TE Tools](https://github.com/Dfam-consortium/TETools) =
 * description of the origin of the sequences used to train BRAKER3/GALBA
 ## methods/
 * process used to create the annotations
+
+
+## Citation
+[![DOI](https://zenodo.org/badge/982707227.svg)](https://doi.org/10.5281/zenodo.17713986)
