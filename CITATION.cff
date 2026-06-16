@@ -182,7 +182,7 @@ preferred-citation:
 
 # ── Related: the Zenodo data deposit ─────────────────────────────────────────
 references:
-  - type: dataset
+  - type: data
     title: "Chromosome-level genomes of scleractinian corals: gene prediction and functional annotation — annotation data repository"
     doi: "10.5281/zenodo.17713987"
     url: "https://zenodo.org/records/17713987"
@@ -196,67 +196,67 @@ references:
       - family-names: Rising
         given-names: Kara
       - family-names: Quigley
-      	given-names: Kate M.
+        given-names: Kate M.
       - family-names: Voolstra
-      	given-names: Christian R.
+        given-names: Christian R.
       - family-names: Combosch
-      	given-names: David J.
+        given-names: David J.
       - family-names: Ziegler
-      	given-names: Maren
+        given-names: Maren
       - family-names: Parkinson
-      	given-names: John E.
+        given-names: John E.
       - family-names: McKenna
-      	given-names: Victoria
+        given-names: Victoria
       - family-names: O'Brien
-      	given-names: Rebecca
+        given-names: Rebecca
       - family-names: Niu
-      	given-names: Haoyu
+        given-names: Haoyu
       - family-names: Linsdell
-      	given-names: Alice
+        given-names: Alice
       - family-names: Aunin
-      	given-names: Eerik
+        given-names: Eerik
       - family-names: Gettle
-      	given-names: Noah
+        given-names: Noah
       - family-names: Oatley
-      	given-names: Graeme
+        given-names: Graeme
       - family-names: Platte
-      	given-names: Radka
+        given-names: Radka
       - family-names: Wood
-      	given-names: Jonathan
+        given-names: Jonathan
       - family-names: McCarthy
-      	given-names: Shane
+        given-names: Shane
       - family-names: Holroyd
-      	given-names: Nancy
+        given-names: Nancy
       - family-names: Howard
-      	given-names: Caroline
+        given-names: Caroline
       - family-names: Downie
-      	given-names: Jim
+        given-names: Jim
       - family-names: Santos
-      	given-names: Camilla A.
+        given-names: Camilla A.
       - family-names: Johnson
-      	given-names: Wiesia
+        given-names: Wiesia
       - family-names: Sinclair
-      	given-names: Elizabeth
+        given-names: Elizabeth
       - family-names: Collins
-      	given-names: Joanna
+        given-names: Joanna
       - family-names: Pelan
-      	given-names: Sarah
+        given-names: Sarah
       - family-names: Zilov
-     	given-names: Danil
+        given-names: Danil
       - family-names: Brooks
-      	given-names: Karen
+        given-names: Karen
       - family-names: van Niekerk
-      	given-names: Karen
+        given-names: Karen
       - family-names: Absolon
-      	given-names: Dominic E.
+        given-names: Dominic E.
       - family-names: Mathers
-      	given-names: Thomas C.
+        given-names: Thomas C.
       - family-names: Jackson
-      	given-names: Benjamin
+        given-names: Benjamin
       - family-names: Howe
-      	given-names: Kerstin
+        given-names: Kerstin
       - family-names: Blaxter
-      	given-names: Mark
+        given-names: Mark
       - family-names: Sweet
-      	given-names: Michael
+        given-names: Michael
 
