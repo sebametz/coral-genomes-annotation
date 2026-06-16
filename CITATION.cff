@@ -1,0 +1,262 @@
+cff-version: "1.2.0"
+message: >
+  If you use these genome annotations, please cite both the data paper
+  and the Zenodo data repository.
+
+title: "Chromosome-level genomes of scleractinian corals: gene prediction and functional annotation"
+type: software
+repository-code: "https://github.com/sebametz/coral-genomes-annotation"
+url: "https://github.com/sebametz/coral-genomes-annotation"
+license: MIT
+date-released: "2026-05-30"
+doi: "10.5281/zenodo.17713987"
+
+authors:
+  - family-names: Metz
+    given-names: Sebastian
+    orcid: "https://orcid.org/0000-0003-3353-8862"
+  - family-names: Paulini
+    given-names: Michael
+  - family-names: Rising
+    given-names: Kara
+  - family-names: Quigley
+    given-names: Kate M.
+  - family-names: Voolstra
+    given-names: Christian R.
+  - family-names: Combosch
+    given-names: David J.
+  - family-names: Ziegler
+    given-names: Maren
+  - family-names: Parkinson
+    given-names: John E.
+  - family-names: McKenna
+    given-names: Victoria
+  - family-names: O'Brien
+    given-names: Rebecca
+  - family-names: Niu
+    given-names: Haoyu
+  - family-names: Linsdell
+    given-names: Alice
+  - family-names: Aunin
+    given-names: Eerik
+  - family-names: Gettle
+    given-names: Noah
+  - family-names: Oatley
+    given-names: Graeme
+  - family-names: Platte
+    given-names: Radka
+  - family-names: Wood
+    given-names: Jonathan
+  - family-names: McCarthy
+    given-names: Shane
+  - family-names: Holroyd
+    given-names: Nancy
+  - family-names: Howard
+    given-names: Caroline
+  - family-names: Downie
+    given-names: Jim
+  - family-names: Santos
+    given-names: Camilla A.
+  - family-names: Johnson
+    given-names: Wiesia
+  - family-names: Sinclair
+    given-names: Elizabeth
+  - family-names: Collins
+    given-names: Joanna
+  - family-names: Pelan
+    given-names: Sarah
+  - family-names: Zilov
+    given-names: Danil
+  - family-names: Brooks
+    given-names: Karen
+  - family-names: van Niekerk
+    given-names: Karen
+  - family-names: Absolon
+    given-names: Dominic E.
+  - family-names: Mathers
+    given-names: Thomas C.
+  - family-names: Jackson
+    given-names: Benjamin
+  - family-names: Howe
+    given-names: Kerstin
+  - family-names: Blaxter
+    given-names: Mark
+  - family-names: Sweet
+    given-names: Michael
+    orcid: "https://orcid.org/0000-0003-4983-8333"
+
+keywords:
+  - coral
+  - scleractinia
+  - genome annotation
+  - gene prediction
+  - BRAKER3
+  - functional annotation
+  - aquatic symbiosis genomics
+  - marine genomics
+  - cnidaria
+  - OrthoFinder
+  - BUSCO
+  - OMARK
+
+# ── Preferred citation: the data paper ───────────────────────────────────────
+preferred-citation:
+  type: article
+  title: "Chromosome-level genomes of scleractinian corals: gene prediction and functional annotation"
+  journal: "Scientific Data"
+  year: 2026
+  month: 5
+  doi: "10.1038/s41597-026-07499-3"
+  url: "https://doi.org/10.1038/s41597-026-07499-3"
+  authors:
+    - family-names: Metz
+      given-names: Sebastian
+    - family-names: Paulini
+      given-names: Michael
+    - family-names: Rising
+      given-names: Kara
+    - family-names: Quigley
+      given-names: Kate M.
+    - family-names: Voolstra
+      given-names: Christian R.
+    - family-names: Combosch
+      given-names: David J.
+    - family-names: Ziegler
+      given-names: Maren
+    - family-names: Parkinson
+      given-names: John E.
+    - family-names: McKenna
+      given-names: Victoria
+    - family-names: O'Brien
+      given-names: Rebecca
+    - family-names: Niu
+      given-names: Haoyu
+    - family-names: Linsdell
+      given-names: Alice
+    - family-names: Aunin
+      given-names: Eerik
+    - family-names: Gettle
+      given-names: Noah
+    - family-names: Oatley
+      given-names: Graeme
+    - family-names: Platte
+      given-names: Radka
+    - family-names: Wood
+      given-names: Jonathan
+    - family-names: McCarthy
+      given-names: Shane
+    - family-names: Holroyd
+      given-names: Nancy
+    - family-names: Howard
+      given-names: Caroline
+    - family-names: Downie
+      given-names: Jim
+    - family-names: Santos
+      given-names: Camilla A.
+    - family-names: Johnson
+      given-names: Wiesia
+    - family-names: Sinclair
+      given-names: Elizabeth
+    - family-names: Collins
+      given-names: Joanna
+    - family-names: Pelan
+      given-names: Sarah
+    - family-names: Zilov
+      given-names: Danil
+    - family-names: Brooks
+      given-names: Karen
+    - family-names: van Niekerk
+      given-names: Karen
+    - family-names: Absolon
+      given-names: Dominic E.
+    - family-names: Mathers
+      given-names: Thomas C.
+    - family-names: Jackson
+      given-names: Benjamin
+    - family-names: Howe
+      given-names: Kerstin
+    - family-names: Blaxter
+      given-names: Mark
+    - family-names: Sweet
+      given-names: Michael
+
+# ── Related: the Zenodo data deposit ─────────────────────────────────────────
+references:
+  - type: dataset
+    title: "Chromosome-level genomes of scleractinian corals: gene prediction and functional annotation — annotation data repository"
+    doi: "10.5281/zenodo.17713987"
+    url: "https://zenodo.org/records/17713987"
+    year: 2026
+    license: CC-BY-4.0
+    authors:
+      - family-names: Metz
+        given-names: Sebastian
+      - family-names: Paulini
+        given-names: Michael
+      - family-names: Rising
+        given-names: Kara
+      - family-names: Quigley
+      	given-names: Kate M.
+      - family-names: Voolstra
+      	given-names: Christian R.
+      - family-names: Combosch
+      	given-names: David J.
+      - family-names: Ziegler
+      	given-names: Maren
+      - family-names: Parkinson
+      	given-names: John E.
+      - family-names: McKenna
+      	given-names: Victoria
+      - family-names: O'Brien
+      	given-names: Rebecca
+      - family-names: Niu
+      	given-names: Haoyu
+      - family-names: Linsdell
+      	given-names: Alice
+      - family-names: Aunin
+      	given-names: Eerik
+      - family-names: Gettle
+      	given-names: Noah
+      - family-names: Oatley
+      	given-names: Graeme
+      - family-names: Platte
+      	given-names: Radka
+      - family-names: Wood
+      	given-names: Jonathan
+      - family-names: McCarthy
+      	given-names: Shane
+      - family-names: Holroyd
+      	given-names: Nancy
+      - family-names: Howard
+      	given-names: Caroline
+      - family-names: Downie
+      	given-names: Jim
+      - family-names: Santos
+      	given-names: Camilla A.
+      - family-names: Johnson
+      	given-names: Wiesia
+      - family-names: Sinclair
+      	given-names: Elizabeth
+      - family-names: Collins
+      	given-names: Joanna
+      - family-names: Pelan
+      	given-names: Sarah
+      - family-names: Zilov
+     	given-names: Danil
+      - family-names: Brooks
+      	given-names: Karen
+      - family-names: van Niekerk
+      	given-names: Karen
+      - family-names: Absolon
+      	given-names: Dominic E.
+      - family-names: Mathers
+      	given-names: Thomas C.
+      - family-names: Jackson
+      	given-names: Benjamin
+      - family-names: Howe
+      	given-names: Kerstin
+      - family-names: Blaxter
+      	given-names: Mark
+      - family-names: Sweet
+      	given-names: Michael
+
